@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>1005-CSS容器設定</title>
+	<style>
+        div {
+            width:  200px;
+            height:  100px;
+            margin-bottom:  10px;
+        }
+        #d1{
+            background-image: linear-gradient(red,yellow);
+        }
+        #d2{
+            background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+        }
+        #d3{
+            background-image: radial-gradient(circle ,red,yellow);
+        }
+        #d4{
+            background-image: conic-gradient(circle ,red,yellow);
+        }
+        #d2{
+            background-image: conic-gradient ( from 90deg,red,orange,yellow,green,blue,indigo,violet);
+        }
+        #d2{
+            background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+        }
+        #d2{
+            background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+        }
+        #d8{
+            background-image: repeating-linear-gradient(red 30%,orange 35%,yellow 40%);
+        }
+        @keyframes k1{
+            
+            0% { background-image: linear-gradient(90deg, red,white 50%,blue); }
+            8% { background-image: linear-gradient(90deg, red,white 40%,blue); }
+            0% { background-image: linear-gradient(90deg, red,white 30%,blue); }
+            0% { background-image: linear-gradient(90deg, red,white 20%,blue); }
+            0% { background-image: linear-gradient(90deg, red,white 30%,blue); }
+            0% { background-image: linear-gradient(90deg, red,white 40%,blue); }
+            0% { background-image: linear-gradient(90deg, red,white 50%,blue); }
+            0% { background-image: linear-gradient(90deg, red,white 60%,blue); }
+
+        }
+        #a3{
+            animation: k3 0.5s infinite linear;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+	<div id="d1">內容文字</div>
+	<div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <div id="d5"></div>
+    <div id="d6"></div>
+    <hr>
+    <div id="d7"></div>
+    <div id="d8"></div>
+    <div id="d9"></div>
+</body>
+</html>
